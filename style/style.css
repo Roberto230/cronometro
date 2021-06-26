@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: orange;
+    
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+}
+.timer, .buttons{
+    margin: 25px;
+}
+.timer{
+    margin-top: 40px;
+}
+span{
+    font-size: 30px;
+}
+button {
+    background-color: rgba(255, 255, 255, 0.075);
+    border: solid 2px #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #fff;
+    padding: 15px;
+}
+button:hover{
+    background-color: #fff;
+    color: orange;
+}
